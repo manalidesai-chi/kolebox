@@ -1,0 +1,48 @@
+body{
+  font-family: sans-serif;
+  text-align: center;
+}
+
+
+h2{
+  margin-top:40px;
+  font-size: 30px;
+  color: var(--primary, #fbb148)
+}
+
+
+.button {
+  font-size: 24px;
+    box-shadow: 2px 2px 5px 2px rgba(0, 0, 0, 0.07);
+
+  max-width: 50%;
+  max-height: 80px;
+  padding:30px;
+  background-color: var(--secondary, #5ab886);
+  /*overflow: visible;*/
+  border-radius: 15px;
+  color: white;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+  margin: auto;
+  margin-top: 50px; 
+}
+
+#open, #undo {
+  background-color: var(--primary, #fbb148);
+}
+
+#cancel{
+
+  background-color: var(--white, #ffffff);
+  overflow: visible;
+
+  color: black;
+}
+
+
+.container {
+  /*display: flex;*/
+}
+
